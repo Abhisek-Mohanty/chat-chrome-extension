@@ -1,12 +1,12 @@
 {
-    "manifest_version":3,
-    "name":"Global Entry Drops",
-    "description":"Find the global entry interview that meet our selection criteria",
-    "version":"1.0",
-    "action":{
-        "default_popup":"popup/popup.html"
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "Talk with Me.",
+  "description": "Find the global entry interview that meet our selection criteria",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "icons": {
     "16": "image/icon16.png",
     "19": "image/icon19.png",
     "32": "image/icon32.png",
@@ -14,11 +14,11 @@
     "48": "image/icon48.png",
     "128": "image/icon128.png"
   },
-  "background":{
-    "service_worker":"background.js",
-    "type":"module"
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
   },
-  "permissions":[
+  "permissions": [
     "storage"
   ]
 }
